@@ -1,0 +1,32 @@
+{
+  "name": "fp-lib",
+  "version": "1.0.0",
+  "description": "A small library of Functional Programming functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "coverage": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage",
+    "coverage-watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --watch",
+    "coverage-report": "http-server ./coverage/lcov-report",
+    "watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watch",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TracyGJG/fp-lib.git"
+  },
+  "keywords": [
+    "FP"
+  ],
+  "author": "TGJ Gilmore",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/TracyGJG/fp-lib/issues"
+  },
+  "homepage": "https://github.com/TracyGJG/fp-lib#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "jest": "^29.4.3",
+    "jest-environment-jsdom": "^29.5.0"
+  }
+}
